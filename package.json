@@ -1,0 +1,23 @@
+{
+  "name": "microfrontend_architecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private":true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bootstrap": "lerna bootstrap",
+    "start": "lerna run start --parallel",
+    "dev": "lerna run dev --parallel"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "lerna": "^6.4.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
